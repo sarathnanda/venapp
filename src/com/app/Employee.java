@@ -1,6 +1,13 @@
 package com.app;
 
 public class Employee {
-	private int empId;
+	private int empName;
+
+	@Override
+	public String toString() {
+		return "Employee [empName=" + empName + "]";
+	}
+	
+	
 
 }
