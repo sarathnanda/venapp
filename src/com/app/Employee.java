@@ -4,6 +4,13 @@ public class Employee {
 	public int empId;
 	private String empName;
 	private double empSal;
+	
+	public String getEmpName() {
+		return empName;
+	}
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
 	public int getEmpId() {
 		return empId;
 	}
