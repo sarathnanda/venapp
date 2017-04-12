@@ -2,6 +2,7 @@ package com.app;
 
 public class Employee {
 	public int empId;
+	private String empName;
 	private double empSal;
 	public int getEmpId() {
 		return empId;
